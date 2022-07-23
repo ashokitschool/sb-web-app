@@ -32,11 +32,11 @@ public class BookController {
 		return "success";
 	}
 
-	@GetMapping("/test")
-	public String test(Model model) {
-		logger.info("*** test () method execution start ***");
+	@GetMapping("/viewBooks")
+	public String viewBooks(Model model) {
+		logger.info("*** viewBooks () method execution start ***");
 		int i = 10 / 0;
-		logger.info("*** test () method execution end***");
+		logger.info("*** viewBooks () method execution end***");
 		return "success";
 	}
 
